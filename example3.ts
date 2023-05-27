@@ -1,0 +1,11 @@
+let dec:number = 123;
+let hexadec:number=0x37cf;
+let octa:number=0o377;
+let bina:number=0b1100;
+let floa:number=10.8788;
+console.log(dec);
+console.log(hexadec);
+console.log(octa);
+console.log(bina.toExponential());
+console.log(floa.toFixed());
+console.log(floa.toLocaleString());
